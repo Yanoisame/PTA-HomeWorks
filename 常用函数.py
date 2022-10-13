@@ -20,7 +20,9 @@
 #re.findall(匹配规则，原始文档)
 #xxx.startswith(检查字符串是否是以指定子字符串开头)
 #xxx.endswith(检查字符串是否是以指定子字符串结尾)
-
+#chr()编码转换字符
+#ord()字符转换编码
+#"内容".join，列表转换字符串，内容部分可自定义
 print(3+4)
 print(3-4)
 print(3*4)
