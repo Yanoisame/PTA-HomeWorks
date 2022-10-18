@@ -1,7 +1,6 @@
 a = input()
 ws = a[:17]
-ls = a[-1:]
-if len(a) == 18 and ws.isdigit() == True and ls.isnumeric() == True:
+if len(a) == 18 and ws.isdigit() == True or a.endswith("X") == True:
     print("True")
 else:
     print("False")
