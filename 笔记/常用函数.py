@@ -32,6 +32,7 @@
 
 # insert(插入位置，内容)
 # append(列表末尾插入)
+# pop(位置)删除索引位置外的数据
 print(3+4)
 print(3-4)
 print(3*4)
