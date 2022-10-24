@@ -29,6 +29,9 @@
 #ord()字符转换编码
 #"内容".join()，列表转换字符串，内容部分可自定义
 # sorted() 任意序列升序，当reverse=True为逆降序
+
+# insert(插入位置，内容)
+# append(列表末尾插入)
 print(3+4)
 print(3-4)
 print(3*4)
