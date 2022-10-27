@@ -28,11 +28,13 @@
 #chr()编码转换字符
 #ord()字符转换编码
 #"内容".join()，列表转换字符串，内容部分可自定义
-# sorted() 任意序列升序，当reverse=True为逆降序
+# sorted() 任意序列升序，当reverse=True为逆降序(有返回值)
+# sort() 功能同上，无反回值
 
 # insert(插入位置，内容)
 # append(列表末尾插入)
 # pop(位置)删除索引位置外的数据
+
 print(3+4)
 print(3-4)
 print(3*4)

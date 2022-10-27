@@ -1,3 +1,5 @@
-a = list(map(int, input().split()))
-b = sorted(a, reverse=True)
-print()
+a, b = map(int, input().split())
+if a > b:
+    print(f"{a} {b}")
+else:
+    print(f"{b} {a}")
