@@ -37,7 +37,11 @@
 # append(列表末尾插入)
 # pop(位置)删除索引位置外的数据
 # lambda x:目标函数(x)   类似于map，把列表每个元素进行处理
-# 例如：lst.sort(key=lambda x:sum(x))
+# 1.与map函数进行使用
+# a = map(lambda x:x**2,range(5)) 把0-5（不含5）放入前面函数内计算，并制成列表
+# print(list(a))
+
+# 2.lst.sort(key=lambda x:sum(x))  列表中运用，内嵌函数和，比较大小
 
 print(3+4)
 print(3-4)
