@@ -34,6 +34,8 @@
 # insert(插入位置，内容)
 # append(列表末尾插入)
 # pop(位置)删除索引位置外的数据
+# lambda x:目标函数(x)   类似于map，把列表每个元素进行处理
+# 例如：lst.sort(key=lambda x:sum(x))
 
 print(3+4)
 print(3-4)
