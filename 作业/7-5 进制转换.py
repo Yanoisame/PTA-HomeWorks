@@ -1,2 +1,2 @@
-i=eval(input())
-print(hex(i),oct(i),bin(i))
+i = int(input())
+print(hex(i), oct(i), bin(i))
