@@ -16,12 +16,12 @@
 # print(sum_ry(a, b))
 #
 # 使用while循环方法
-# i = 0
-# sum_ = 0
-# while i <= 100:
-#     sum_ = i + sum_
-#     i = i + 1
-# print(sum_)
+i = 0
+sum_ = 0
+while i <= 100:
+    sum_ = i + sum_
+    i = i + 1
+print(sum_)
 
 # while循环，自定函数法
 # def sum_ry(star, end):
