@@ -6,4 +6,3 @@ else:
     for i in range(num - 2):
         print(str(num), str(num), sep="*" * (num - 2))
     print(str(num) * num)
-    
