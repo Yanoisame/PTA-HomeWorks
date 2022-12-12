@@ -17,7 +17,7 @@
   for 循环变量 in range(a, b+1):      #把区间(包括端点)内数字挨个抽出来给循环变量
       if is_prime(循环变量):          #调用判断素数函数，确定该数字是否为素数
          lst.append(循环变量)         #把符合的数字加入到列表中，如果不符合，什么也不用做
-  print(*lst)  #最后解包出该区间内所有素数
+  print(*lst)        #最后解包出该区间内所有素数
 
 
 2.斐波那契数列(利用递归法实现，返回斐波那契数列中第n项的值)
@@ -38,8 +38,8 @@
      num_2 = n // 10 % 10    #提取十位
      num_3 = n % 10          #提取个位
      if num_1**3 + num_2**3 + num_3**3 == n:   #每位数的4次方之和是否等于本身
-        return Ture   #等于话，是水仙花数，返回真
-     else:            #否则返回假
+        return Ture          #等于话，是水仙花数，返回真
+     else:                   #否则返回假
           return False
 
  B.衍生题型(玫瑰花数，拿出每位数的3次方之和是否相等)
@@ -82,7 +82,7 @@
             divisor_sum += i     # 将 i 添加到 divisor_sum 中
     if divisor_sum == num:       # 如果 divisor_sum 等于 num(上一步循环完后的和与传入的数进行对比)，说明 num 是一个完数
         return True
-    else:                        # 否则，num 不是一个完数
+    else:           #否则，num 不是一个完数
         return False
 
 
